@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 317px;
+    background: #23252C;
+    font-family: inter, sans-serif;
+    margin: 10px auto;
+   
+}
+.container{
+    text-align: center;
+    background: #1A1B21;
+    height: 100%;
+    border-radius: 10px ;
+    
+}
+/* ##### INFO SECTION #####*/
+img{
+    
+    text-align: center;
+}
+.info-name{
+    text-align: center;
+    color: white
+}
+.info-name h2{
+    letter-spacing: 2px;
+    margin-bottom: 0;   
+}
+.info-name  h4{
+    margin: 0px;
+    line-height: 1;
+    font-size: .8em;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: #F3BF99;
+}
+.button{
+    margin: 0 auto ;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.btn_email{
+    padding: 9px 13px 9px 11px;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+.btn_email svg{
+    margin-right: 10px
+}
+.btn_linkedIn{
+
+    border-radius: 5px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+
+/* ######## ABOUT SECTION */
+.main-content{
+    color: whitesmoke;
+    text-align: left;
+    margin: 0 30px
+}
+
+
+/* ###### FOOTER SECTION */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:0px;
+    background: white;
+    padding: 10px;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
